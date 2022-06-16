@@ -1,0 +1,23 @@
+:root {
+  --bg-color: #fafafa;
+  --text-color: #262626;
+  --text-secondary-color: #8e8e8e;
+  --text-light-color: #c7c7c7;
+  --secondary-color: #0095f6;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --default-font: "Roboto", sans-serif;
+  --logo-font: "Oleo Script", cursive;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--default-font);
+}/*# sourceMappingURL=global.css.map */
